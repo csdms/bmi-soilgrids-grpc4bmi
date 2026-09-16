@@ -28,8 +28,7 @@ m.initialize(str(CONFIG_FILE))
 # This will take a few steps.
 # It may seem cumbersome at first, but there's payoff at the end.
 # Start by displaying the name of the one variable exposed through the BMI.
-m.get_output_var_names()
-varname, = _
+varname = m.get_output_var_names()[0]
 print(varname)
 
 # Find the data type of the soil pH data.
