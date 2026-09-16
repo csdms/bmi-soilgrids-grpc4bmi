@@ -10,7 +10,7 @@ from grpc4bmi.bmi_client_docker import BmiClientDocker
 # * which Docker image to use,
 # * the port exposed through the image, and
 # * the location of the configuration file used for the tool.
-DOCKER_IMAGE = "csdms/soilgrids-grpc4bmi"
+DOCKER_IMAGE = "csdms/bmi-soilgrids-grpc4bmi"
 BMI_PORT = 55555
 CONFIG_FILE = pathlib.Path("config.yaml")
 
